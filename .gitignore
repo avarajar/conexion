@@ -1,0 +1,12 @@
+*.pyc
+*~
+*.project
+.gaedata
+static/
+_res/.sass-cache
+.sass-cache
+media/
+.DS_Store
+
+conexion_venv/
+

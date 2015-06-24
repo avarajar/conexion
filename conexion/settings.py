@@ -31,7 +31,8 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = (
-    'grappelli',
+    'suit',
+    #'grappelli',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -81,7 +82,10 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'conexion.wsgi.application'
 
-
+SUIT_CONFIG = {
+    # header
+    'ADMIN_NAME': 'Conexion Creadora',
+}
 # Database
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
 
